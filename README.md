@@ -1,7 +1,7 @@
 # FSMethodology
 Research project to perform feature selection in unsupervised learning
 
-#Pre-Conditions
+# Pre-Conditions
 It's necessary install some packages/softwares before execution:
 
 - Octave GNU Linux
