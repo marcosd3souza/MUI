@@ -6,7 +6,7 @@ It's necessary install some packages/softwares before execution:
 
 - Octave GNU Linux
 - Scikit-learn (package to execute K-Means)
-- oct2py (package to execute matlab code)
+- oct2py (package to execute octave code)
 - Anaconda 1.6+
 
 # Command to execute
