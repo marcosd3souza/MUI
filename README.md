@@ -12,3 +12,6 @@ It's necessary install some packages/softwares before execution:
 # Command to execute
 
 > python3.6 < run_UnFS.py
+
+
+Obs: I'm working in this project on Bitbucket repository, after to finsh development i'll publish here. For more informations contact-me from emails: marcosd3souza@gmail.com / mso2@cin.ufpe.br
