@@ -1,0 +1,9 @@
+selected_features_LS <- read.csv(file = "/home/marcos/Documentos/UFPE/microarray/Experimento/Feature Selection/Ponto de Corte/features_por_pencentual_LaplacianScore.txt", header = FALSE, sep = "\n")
+
+teste <- x[as.character(selected_features_idetect$V1)];
+
+km <- kmeans(teste, 9);
+
+dgene <- dist(teste, method = "euclidean");
+
+stats <- cluster.stats(dgene, km$cluster, alt.clustering=as.integer(classes), G2 = TRUE, G3 = TRUE);

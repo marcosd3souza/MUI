@@ -1,11 +1,6 @@
 # Byte-compiled / optimized / DLL files
-*/__pycache__/*
+__pycache__/
 *.py[cod]
-*.pyc
-/results/.*
-
-#environment
-.idea/
 
 # C extensions
 *.so
@@ -13,6 +8,7 @@
 # Distribution / packaging
 .Python
 env/
+venv/
 build/
 develop-eggs/
 dist/
@@ -33,6 +29,7 @@ var/
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+.idea/
 
 # Installer logs
 pip-log.txt
@@ -40,7 +37,6 @@ pip-delete-this-directory.txt
 
 # Unit test / coverage reports
 htmlcov/
-*.csv
 .tox/
 .coverage
 .coverage.*
@@ -48,6 +44,9 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *.cover
+
+#temporarily results
+results/
 
 # Translations
 *.mo
@@ -61,4 +60,3 @@ docs/_build/
 
 # PyBuilder
 target/
-octave-workspace

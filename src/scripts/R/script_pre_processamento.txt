@@ -1,0 +1,37 @@
+gds <- getGEO(GEO = "GDS2546", destdir = "/home/marcos/Documentos/UFPE/microarray/Dataset/Experimento/GDS2546/")
+
+
+gds_table <- Table(gds)
+
+
+gds_table <- na.omit(gds_table)
+
+View(gds_table)
+
+gds_table <- gds_table[-c(2)]
+
+
+rownames(gds_table) <- gds_table$ID_REF
+
+
+gds_table <- gds_table[-c(1)]
+
+
+gds_matrix <- t(data.matrix(gds_table))
+
+gds_matrix <- scale(gds_matrix)
+
+
+tissue <- data.matrix(Columns(gds)$tissue)
+
+
+data <- cbind(tissue, gds_scaled)
+
+
+rownames(data) <- NULL
+
+
+colnames(data)[1] <- c("tissue")
+
+
+write.csv(x = data, file = "/home/marcos/Documentos/UFPE/microarray/Dataset/Experimento/GDS2546/gds2546.csv", row.names = FALSE)

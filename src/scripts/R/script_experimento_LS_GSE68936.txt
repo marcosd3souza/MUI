@@ -1,0 +1,23 @@
+X = textread('GSE68936.csv','','delimiter',',','whitespace','"');
+
+X = X(2:61,2:7130);
+
+feaNorm = mynorm(X,2);
+
+fea = X ./ repmat(max(1e-10,feaNorm),1,7129);
+
+options = [];
+options.Metric = 'Cosine';
+options.NeighborMode = 'KNN';
+options.WeightMode = 'Cosine';
+options.k = 9;
+
+W = constructW(fea,options);
+
+[Y] = LaplacianScore(X, W)
+
+fid = fopen('GSE68936.csv');
+headers = textscan(fid,'%s',1);
+fclose(fid);
+
+dlmwrite('test.csv',scores,'delimiter',',','-append');
