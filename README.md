@@ -1,3 +1,5 @@
+![Framework](https://github.com/marcosd3souza/FSMethodology/blob/master/Framework%20Arch.png)
+
 # Unsupervised Feature Selection Methodology for Clustering in High Dimensionality Datasets
 Research project to perform feature selection in unsupervised learning
 
