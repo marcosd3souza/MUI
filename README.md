@@ -16,4 +16,19 @@ It's necessary install some packages/softwares before execution:
 - Anaconda 1.6+
 
 # Reference
-https://seer.ufrgs.br/rita/article/view/RITA_VOL27_NR2_30
+
+de Souza Oliveira, M., & Queiroz, S. (2020). Unsupervised feature selection methodology for clustering in high dimensionality datasets. Revista de Informática Teórica e Aplicada, 27(2), 30-41.
+
+```
+@article{de2020unsupervised,
+  title={Unsupervised feature selection methodology for clustering in high dimensionality datasets},
+  author={de Souza Oliveira, Marcos and Queiroz, Sergio},
+  journal={Revista de Inform{\'a}tica Te{\'o}rica e Aplicada},
+  volume={27},
+  number={2},
+  pages={30--41},
+  year={2020}
+}
+```
+# PDF
+https://www.seer.ufrgs.br/rita/article/download/RITA_VOL27_NR2_30/pdf
