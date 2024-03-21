@@ -16,7 +16,9 @@ It's necessary install some packages/softwares before execution:
 - Anaconda 1.6+
 
 Next, execute by
-```python /src/main/execution/main.py```
+```
+python /src/main/execution/main.py
+```
 
 # Reference
 
