@@ -15,6 +15,9 @@ It's necessary install some packages/softwares before execution:
 - oct2py (package to execute octave code)
 - Anaconda 1.6+
 
+Next, execute by
+```python /src/main/execution/main.py```
+
 # Reference
 
 de Souza Oliveira, M., & Queiroz, S. (2020). Unsupervised feature selection methodology for clustering in high dimensionality datasets. Revista de Informática Teórica e Aplicada, 27(2), 30-41.
